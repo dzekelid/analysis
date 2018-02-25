@@ -1,5 +1,4 @@
 ---
----
 name: Altmetric
 description: Altmetric tracks mentions of scholarly works on social media sites, scholarly
   bookmarking services and in science news outlets. It handles all of the heavy lifting
@@ -42,6 +41,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
