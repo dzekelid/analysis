@@ -1,5 +1,4 @@
 ---
----
 name: Ai Applied
 description: Leverage the power of thinking technology. Ai Applied provides technologies
   and services which help you obtain valuable insights from your texts, social media,
@@ -36,6 +35,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
