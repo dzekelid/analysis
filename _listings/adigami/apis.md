@@ -1,5 +1,4 @@
 ---
----
 name: Adigami
 description: Adigami is a data integration and visualization company specializing
   in digital media analytics. Their platform helps companies collect analytics data
@@ -39,6 +38,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
