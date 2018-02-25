@@ -1,5 +1,4 @@
 ---
----
 name: Appsee
 description: Appsee enables mobile app publishers and developers to track, understand
   and improve the user experience in their apps, and act on insights delivered by
@@ -40,6 +39,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
