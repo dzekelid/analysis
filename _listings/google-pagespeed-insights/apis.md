@@ -14,9 +14,9 @@ tags:
 - Stack Network
 - Performance
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/analysis/master/_listings/google-pagespeed-insights/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google PageSpeed Insights API
@@ -28,7 +28,7 @@ apis:
   tags: Analysis
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get.md
 x-common:
 - type: x-change-logs
   url: https://developers.google.com/speed/docs/insights/release_notes
