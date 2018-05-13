@@ -19,7 +19,7 @@ apis:
   tags: Analysis
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/paralleldots/emotion-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/paralleldots/similarity-post.md
 x-common:
 - type: x-blog
   url: https://blog.paralleldots.com/
