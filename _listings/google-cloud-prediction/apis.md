@@ -13,8 +13,8 @@ tags:
 - Prediction
 - Machine Learning
 - Google APIs
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/project-trainedmodels-id-analyze-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/project-trainedmodels-id-analyze-get-postman.md
 x-common:
 - type: x-bugs
   url: https://cloud.google.com/prediction/docs/feedback_and_discuss
