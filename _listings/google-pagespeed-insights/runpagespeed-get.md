@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: PageSpeed Insights
-  description: Analyzes the performance of a web page and provides tailored suggestions
-    to make that page faster.
+  title: Google PageSpeed Insights API Run PageSpeed Analysis
+  description: Runs PageSpeed analysis on the page at the specified URL, and returns
+    PageSpeed scores, a list of suggestions to make that page faster, and other information.
   contact:
     name: Google
     url: https://google.com
