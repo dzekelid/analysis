@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Prediction
-  description: Lets you access a cloud hosted machine learning service that makes
-    it easy to build smart apps
+  title: Google Cloud Prediction API Analyze
+  description: Get analysis of the model and the data the model was trained on.
   contact:
     name: Google
     url: https://google.com
