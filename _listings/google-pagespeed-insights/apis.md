@@ -31,7 +31,25 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get-postman.md
+- name: Google PageSpeed Insights API Run PageSpeed Analysis
+  description: Runs PageSpeed analysis on the page at the specified URL, and returns
+    PageSpeed scores, a list of suggestions to make that page faster, and other information.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/54de5c09d56ec853cc9310e1.png
+  humanURL: https://developers.google.com/speed/docs/insights/about
+  baseURL: http:://www.googleapis.com//pagespeedonline/v2
+  tags: Analysis
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get-postman.md
 x-common:
+- type: x-change-logs
+  url: https://developers.google.com/speed/docs/insights/release_notes
+- type: x-getting-started
+  url: https://developers.google.com/speed/docs/insights/v2/getting-started
+- type: x-website
+  url: https://developers.google.com/speed/docs/insights/about
 - type: x-change-logs
   url: https://developers.google.com/speed/docs/insights/release_notes
 - type: x-getting-started
