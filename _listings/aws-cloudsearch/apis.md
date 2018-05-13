@@ -13,8 +13,8 @@ tags:
 - Search
 - Documents
 - Amazon Web Services
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/apis.yaml
 specificationVersion: "0.14"
 apis: []
