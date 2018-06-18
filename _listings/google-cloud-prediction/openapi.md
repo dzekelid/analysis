@@ -35,6 +35,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
       - Analysis
 ---

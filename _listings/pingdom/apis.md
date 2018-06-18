@@ -1,17 +1,14 @@
 ---
 name: Pingdom
 x-slug: pingdom
-description: Pingdom is a service that tracks the uptime, downtime, and performance
-  of websites. When problems happen with a site that Pingdom monitors, it immediately
-  alerts the owner so the problem can be taken care of. Pingdom monitors websites
-  from multiple locations globally so that it can distinguish genuine downtime from
-  routing and access problems.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/456_logo.png
+description: Monitor your website???s availability and performance for free with Pingdom
+  and always be the first to know when your website is down. No installation required.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
 x-kinRank: "7"
-x-alexaRank: ""
+x-alexaRank: "5592"
 tags: Analysis
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,7 +16,7 @@ apis:
   x-api-slug: analysis-api
   description: Returns a list of the latest root cause analysis results for a specified
     check.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/456_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
   baseURL: |-
     :////
@@ -32,12 +29,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pingdom/apiversionanalysischeckid-get-openapi.md
 - name: Analysis API
   x-api-slug: analysis-api
-  description: Pingdom is a service that tracks the uptime, downtime, and performance
-    of websites. When problems happen with a site that Pingdom monitors, it immediately
-    alerts the owner so the problem can be taken care of. Pingdom monitors websites
-    from multiple locations globally so that it can distinguish genuine downtime from
-    routing and access problems.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/456_logo.png
+  description: Monitor your website???s availability and performance for free with
+    Pingdom and always be the first to know when your website is down. No installation
+    required.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
   baseURL: :///
   tags: Analysis
@@ -53,8 +48,12 @@ x-common:
   url: http://royal.pingdom.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/pingdom
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/pingdom
 - type: x-developer
   url: https://www.pingdom.com/features/api/
+- type: x-email
+  url: sales@pingdom.com
 - type: x-github
   url: https://github.com/Pingdom
 - type: x-pricing

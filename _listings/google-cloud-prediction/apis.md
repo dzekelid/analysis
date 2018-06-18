@@ -7,10 +7,10 @@ description: Google Cloud Prediction API provides a RESTful API to build Machine
   spam detection, recommendation systems, and more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Analysis
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +20,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}/analyze
-  tags: Model,Analysis
+  tags: Machine Learning,Model,Analysis
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/projecttrainedmodelsidanalyze-get-postman.md
