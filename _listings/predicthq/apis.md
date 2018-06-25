@@ -3,12 +3,12 @@ name: PredictHQ
 x-slug: predicthq
 description: Event visibility yields higher returns & reduces operational costs. PredictHQ
   is the worlds largest source of intelligent event data making businesses smarter.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
 x-kinRank: "7"
-x-alexaRank: "428389"
+x-alexaRank: "292227"
 tags: Analysis
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
     - ~99.73% = 3 standard deviations from the mean
 
     A high `significance` means that only extreme spikes and troughs will be attributed to events. We use 50% as a default, which corresponds to ~0.68 standard deviations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com////v1/signals/{signal_id}/analysis/
   tags: Signals,Signal,Analysis
@@ -45,7 +45,7 @@ apis:
   description: Event visibility yields higher returns & reduces operational costs.
     PredictHQ is the worlds largest source of intelligent event data making businesses
     smarter.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com//
   tags: Analysis
@@ -65,6 +65,8 @@ x-common:
   url: notices@predicthq.com
 - type: x-github
   url: https://github.com/predicthq
+- type: x-linkedin
+  url: PredictHQ
 - type: x-twitter
   url: https://twitter.com/PredictHQ
 - type: x-website
