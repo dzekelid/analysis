@@ -11,22 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/appsee/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Appsee
-  x-api-slug: appsee
-  description: Appsee is a platform that allows mobile application developers and
-    publishers to understand their users. Appsee provides in-app visualization and
-    analytics features to measure and improve the application user experience.The
-    Appsee API allows developers to access and integrate the functionality of Appsee
-    with other applications. The main API method is retrieving application sessions
-    and associated information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2002-appsee.jpg
-  humanURL: http://www.appsee.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/appsee/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.appsee.com/

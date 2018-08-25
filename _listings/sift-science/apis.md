@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sift-science/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sift Science API
-  x-api-slug: sift-science-api
-  description: Block fraud, provide a better customer experience, and grow your revenue
-    through the machine learning Sift Science Trust Platform. Fast, accurate, and
-    reliable data. Talk to a fraud expert today.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1475-sift-science.jpg
-  humanURL: https://siftscience.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sift-science/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.siftscience.com/

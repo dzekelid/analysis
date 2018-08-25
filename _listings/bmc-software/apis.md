@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
-apis:
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: Transform your digital enterprise with BMC IT solutions. From mainframe
-    to cloud to mobile, we???ll help you drive innovation and industrial efficiency.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
-  humanURL: http://www.bmc.com
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bmc-software/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://blogger.api.gallery.streamdata.io

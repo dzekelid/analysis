@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/deskmetrics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Deskmetrics
-  x-api-slug: deskmetrics
-  description: Deskmetrics Analytics allows software companies and developers to understand
-    how their application is being used.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1004-deskmetrics.jpg
-  humanURL: https://deskmetrics.com
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/deskmetrics/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.deskmetrics.com

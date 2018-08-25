@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-traffic-manager/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure Traffic Manager API
-  x-api-slug: azure-traffic-manager-api
-  description: 'Azure Traffic Manager gives you three methods for traffic routing:
-    failover, performance, or weighted round-robin. Choose the one that&rsquo;s right
-    for your application or scenario.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-traffic-improved-application-performance.png
-  humanURL: https://azure.microsoft.com/en-us/services/traffic-manager/
-  baseURL: ://management.azure.com//
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-traffic-manager/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://azure.storage.api.gallery.streamdata.io

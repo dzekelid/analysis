@@ -11,32 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/authoritylabs/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Authority Labs Partner API
-  x-api-slug: authority-labs-partner-api
-  description: Track website rankings in Google, Yahoo!, and Bing daily. Our automated
-    SERP tracking saves you time and helps you respond quickly to ranking changes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
-  humanURL: http://authoritylabs.com
-  baseURL: https://api.authoritylabs.com//
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/authoritylabs/openapi.md
-- name: AuthorityLabs Partner
-  x-api-slug: authoritylabs-partner
-  description: We have two separate types of queues which make it possible for us
-    to manage large volumes of keywords. The majority of your keywords should be queued
-    using the delayed queue, which guarantees data within 24 hours. If you need results
-    in real-time however we provide a separate end-point, which guarantees results
-    within 1 minute. Please use the real-time queue only when necessary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
-  humanURL: http://authoritylabs.com
-  baseURL: https://api.authoritylabs.com//
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/authoritylabs/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://authentiq.connect.api.gallery.streamdata.io

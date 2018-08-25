@@ -13,18 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/freespee/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Freespee
-  x-api-slug: freespee
-  description: Freespee is the European leader in call monetization technologies for
-    the performance advertising industry.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1061-freespee.jpg
-  humanURL: http://support.freespee.com/hc/en-us/categories/preview?developers
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/freespee/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.freespee.com

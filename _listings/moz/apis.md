@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/moz/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Moz
-  x-api-slug: moz
-  description: Backed by the largest community of SEOs on the planet, Moz builds tools
-    that make SEO, inbound marketing, link building, and content marketing easy. Start
-    your free 30-day trial today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/473-seomoz.jpg
-  humanURL: http://www.seomoz.org
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/moz/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://lsapi.seomoz.com/linkscape

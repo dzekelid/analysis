@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/open-bouquet/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Open Bouquet
-  x-api-slug: open-bouquet
-  description: ""
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: http://bouquet.ai/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/open-bouquet/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://medium.com/@OpenBouquet

@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/framesocket/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Framesocket
-  x-api-slug: framesocket
-  description: framesocket is the best way for developers and content owners to tackle
-    video projects of any size.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
-  humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/framesocket/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://foursquare.api.gallery.streamdata.io

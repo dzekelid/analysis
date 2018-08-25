@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datameer/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Datameer
-  x-api-slug: datameer
-  description: Datameer delivers an agile, unified & governed approach to managing
-    data for analytics. Datameer???s modern analytic data platform transforms complex,
-    diverse data into a governed enterprise-wide network of data pipelines that feed
-    your analytics initiat...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/176-datameer.jpg
-  humanURL: http://www.datameer.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datameer/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.datameer.com/blog/

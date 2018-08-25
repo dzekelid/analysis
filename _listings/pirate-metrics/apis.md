@@ -19,21 +19,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pirate-metrics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pirate Metrics
-  x-api-slug: pirate-metrics
-  description: Pirate Metrics is an API that tracks subscription activity and provides
-    marketing insight for SaaS applications. The Pirate Metrics API allows developers
-    to access and integrate the functionality of Pirate Metrics with other applications.
-    Some example API methods include managing accounts, activating customers, and
-    retrieving referral and other data.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1570_logo.png
-  humanURL: http://piratemetrics.com
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pirate-metrics/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://piratemetrics.com

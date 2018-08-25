@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/stackify/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Stackify
-  x-api-slug: stackify
-  description: Stackifys tools combine monitoring, errors, logs, and metrics in one
-    tool. Find bugs and identify ways to improve your app at every step of the development
-    process. Download Prefix for free and start a free trial of Retrace in order to
-    diagnose applic...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10321-stackify.jpg
-  humanURL: http://stackify.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/stackify/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://stackify.com/blog/

@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/striim/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Striim
-  x-api-slug: striim
-  description: Striim (pronounced stream) provides an end-to-end, real-time data integration
-    + streaming analytics platform. Leverage change data capture (CDC) to access data.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28377-striim.jpg
-  humanURL: https://www.striim.com
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/striim/openapi.md
+apis: []
 x-common:
 - type: x-hacker-news-search
   url: Striim

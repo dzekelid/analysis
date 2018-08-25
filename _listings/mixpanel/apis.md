@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mixpanel/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mixpanel
-  x-api-slug: mixpanel
-  description: Mixpanel is the most advanced analytics platform in the world for mobile
-    & web. />
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/79-mixpanel.jpg
-  humanURL: https://mixpanel.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mixpanel/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.mixpanel.com

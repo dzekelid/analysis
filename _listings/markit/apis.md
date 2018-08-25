@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/markit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Markit
-  x-api-slug: markit
-  description: IHS Markit  The Source for Critical Information and Insight
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1045-markit.jpg
-  humanURL: http://www.markit.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/markit/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/markit

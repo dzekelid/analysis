@@ -11,19 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/localytics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Localytics API
-  x-api-slug: localytics-api
-  description: With our platform you get smarter analytics insights and mobile app
-    marketing experiences that better engage your users. Check out a full list of
-    features!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9135-localytics.jpg
-  humanURL: http://www.localytics.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/localytics/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.localytics.com/blog/

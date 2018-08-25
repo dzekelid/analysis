@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/countly/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Countly API
-  x-api-slug: countly-api
-  description: Countly is the best mobile analytics and marketing, web, desktop and
-    IoT analytics platform for securely tracking customer journeys in your applications.
-    Extend Countly via plugins to add new analytics and marketing capabilities and
-    eliminate the need ...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10143-countly.jpg
-  humanURL: https://count.ly/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/countly/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://cloud.count.ly

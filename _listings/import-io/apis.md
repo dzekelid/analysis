@@ -10,21 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/import-io/apis.md
 specificationVersion: "0.14"
-apis:
-- name: import.io
-  x-api-slug: import-io
-  description: import.io is a service that allows users to find data sources on the
-    web for extraction, use, connect to, and remix the data for websites and applications.The
-    import.io API allows developers to access and integrate the functionality of import.io
-    with other applications. Some example API methods include retrieving data, importing
-    data, extracting data, and managing account information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg
-  humanURL: https://www.import.io/
-  baseURL: https://schedule.import.io//
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/import-io/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://iex.api.gallery.streamdata.io

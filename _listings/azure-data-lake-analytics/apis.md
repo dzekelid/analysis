@@ -21,28 +21,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-data-lake-analytics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure Data Lake Analytics API
-  x-api-slug: azure-data-lake-analytics-api
-  description: The Data Lake analytics service is a new distributed analytics service
-    built on Apache YARN that dynamically scales so you can focus on your business
-    goals, not on distributed infrastructure. Instead of deploying, configuring and
-    tuning hardware, you write queries to transform your data and extract valuable
-    insights. The analytics service can handle jobs of any scale instantly by simply
-    setting the dial for how much power you need. You only pay for your job when it
-    is running making it cost-effective. The analytics service supports Azure Active
-    Directory letting you simply manage access and roles, integrated with your on-premises
-    identity system. It also includes U-SQL, a language that unifies the benefits
-    of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed
-    runtime enables you to efficiently analyze data in the store and across SQL Servers
-    in Azure, Azure SQL Database and Azure SQL Data Warehouse.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
-  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
-  baseURL: :////
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-data-lake-analytics/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://azure.container.service.api.gallery.streamdata.io

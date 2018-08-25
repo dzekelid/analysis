@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: APIMetrics
-  x-api-slug: apimetrics
-  description: API performance monitoring, Cloud Service, SLA monitoring and analysis
-    that gives you answers, not excuses. Find out how today.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
-  humanURL: http://apimetrics.io
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apimetrics/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://apimatic.api.gallery.streamdata.io

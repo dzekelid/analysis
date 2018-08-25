@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendible/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sendible
-  x-api-slug: sendible
-  description: Sendible is a social media management tool that helps agencies and
-    companies boost their productivity on social media. Try it for free.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/472-sendible.jpg
-  humanURL: http://sendible.com
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendible/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://sendible.com/api/

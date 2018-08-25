@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/matlab/apis.md
 specificationVersion: "0.14"
-apis:
-- name: MATLAB
-  x-api-slug: matlab
-  description: MathWorks develops, sells, and supports MATLAB and Simulink products.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20038-matlab.jpg
-  humanURL: http://www.mathworks.com/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/matlab/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blogs.mathworks.com/graphics/

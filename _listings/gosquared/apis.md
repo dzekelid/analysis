@@ -11,21 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gosquared/apis.md
 specificationVersion: "0.14"
-apis:
-- name: GoSquared
-  x-api-slug: gosquared
-  description: GoSquared provides websites with real time analytics through a customizable
-    dashboard. GoSquared????s RESTful API enables developers to build applications
-    and projects on top of the GoSquared platform. Some of the functionality exposed
-    includes the ability to aggregrate stats, track campaign performance, measure
-    user engagement, view notifications and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/209-gosquared.jpg
-  humanURL: https://www.gosquared.com/developer/
-  baseURL: https:///
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gosquared/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.gosquared.com/

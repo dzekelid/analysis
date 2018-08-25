@@ -14,9 +14,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Prediction API
-  x-api-slug: google-cloud-prediction-api
-  description: lets-you-access-a-cloud-hosted-machine-learning-service-that-makes-it-easy-to-build-smart-apps
+- name: Prediction - Analyze
+  x-api-slug: projecttrainedmodelsidanalyze-get
+  description: Get analysis of the model and the data the model was trained on.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
   baseURL: ://www.googleapis.com//prediction/v1.6/projects
@@ -27,19 +27,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/projecttrainedmodelsidanalyze-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/projecttrainedmodelsidanalyze-get-openapi.md
-- name: Google Cloud Prediction API
-  x-api-slug: google-cloud-prediction-api
-  description: Google Cloud Prediction API provides a RESTful API to build Machine
-    Learning models. Predictions cloud-based machine learning tools can help analyze
-    your data to add various features to your applications, such as customer sentiment
-    analysis, spam detection, recommendation systems, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
-  humanURL: https://cloud.google.com/prediction/docs/developer-guide
-  baseURL: ://www.googleapis.com//prediction/v1.6/projects
-  tags: Analysis
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.natural.language.api.gallery.streamdata.io
