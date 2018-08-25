@@ -9,18 +9,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Analysis
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Prediction API Analyze
+- name: Google Cloud Prediction API
   x-api-slug: google-cloud-prediction-api
-  description: Get analysis of the model and the data the model was trained on.
+  description: lets-you-access-a-cloud-hosted-machine-learning-service-that-makes-it-easy-to-build-smart-apps
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg
   humanURL: https://cloud.google.com/prediction/docs/developer-guide
-  baseURL: ://www.googleapis.com//prediction/v1.6/projects//{project}/trainedmodels/{id}/analyze
-  tags: Machine Learning,Model,Analysis
+  baseURL: ://www.googleapis.com//prediction/v1.6/projects
+  tags: Machine Learning, Prediction, Google APIs, Stack Network, Predictions, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/projecttrainedmodelsidanalyze-get-postman.md
@@ -40,6 +41,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.natural.language.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.prediction.stack.network
 - type: x-bugs
   url: https://cloud.google.com/prediction/docs/feedback_and_discuss
 - type: x-change-log

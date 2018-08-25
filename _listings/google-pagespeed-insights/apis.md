@@ -11,19 +11,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Analysis
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google PageSpeed Insights API Run PageSpeed Analysis
+- name: Google PageSpeed Insights API
   x-api-slug: google-pagespeed-insights-api
-  description: Runs PageSpeed analysis on the page at the specified URL, and returns
-    PageSpeed scores, a list of suggestions to make that page faster, and other information.
+  description: analyzes-the-performance-of-a-web-page-and-provides-tailored-suggestions-to-make-that-page-faster-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/54de5c09d56ec853cc9310e1.png
   humanURL: https://developers.google.com/speed/docs/insights/about
-  baseURL: ://www.googleapis.com//pagespeedonline/v2//runPagespeed
-  tags: Pages, Speed, Analysis
+  baseURL: ://www.googleapis.com//pagespeedonline/v2
+  tags: Performance, Websites, Google APIs, Stack Network, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/runpagespeed-get-postman.md
@@ -45,6 +45,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.oauth2.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.pagespeed.insights.stack.network
 - type: x-change-logs
   url: https://developers.google.com/speed/docs/insights/release_notes
 - type: x-getting-started

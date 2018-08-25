@@ -7,49 +7,58 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datu
 x-kinRank: "9"
 x-alexaRank: "514549"
 tags: Analysis
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Datumbox Identifies the Sentiment of the Document
+- name: Datumbox
   x-api-slug: datumbox
-  description: The Sentiment Analysis function classifies documents as positive, negative
-    or neutral (lack of sentiment) depending on whether they express a positive, negative
-    or neutral opinion.
+  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
   humanURL: http://datumbox.com
-  baseURL: https://api.datumbox.com/1.0///SentimentAnalysis.json
-  tags: Sentiment,Analysis
+  baseURL: https://api.datumbox.com/1.0/
+  tags: Machine Learning, Content, Stack Network, API Provider, API Service Provider,
+    SaaS, Technology, Enterprise, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-openapi.md
-- name: Datumbox Classifies Document as Subjective or Objective
+- name: Datumbox
   x-api-slug: datumbox
-  description: The Subjectivity Analysis function categorizes documents as subjective
-    or objective based on their writing style. Texts that express personal opinions
-    are labeled as subjective and the others as objective.
+  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
   humanURL: http://datumbox.com
-  baseURL: https://api.datumbox.com/1.0///SubjectivityAnalysis.json
-  tags: Subjectivity,Analysis
+  baseURL: https://api.datumbox.com/1.0/
+  tags: Machine Learning, Content, Stack Network, API Provider, API Service Provider,
+    SaaS, Technology, Enterprise, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/subjectivityanalysis-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/subjectivityanalysis-json-post-openapi.md
-- name: Datumbox Identifies the Sentiment of Twitter Messages
+- name: Datumbox
   x-api-slug: datumbox
-  description: The Twitter Sentiment Analysis function allows you to perform Sentiment
-    Analysis on Twitter. It classifies the tweets as positive, negative or neutral
-    depending on their context.
+  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
   humanURL: http://datumbox.com
-  baseURL: https://api.datumbox.com/1.0///TwitterSentimentAnalysis.json
-  tags: Twitter,Sentiment,Analysis
+  baseURL: https://api.datumbox.com/1.0/
+  tags: Machine Learning, Content, Stack Network, API Provider, API Service Provider,
+    SaaS, Technology, Enterprise, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/sentimentanalysis-json-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/subjectivityanalysis-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/subjectivityanalysis-json-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/twittersentimentanalysis-json-post-postman.md
   - type: x-openapi-spec
@@ -68,6 +77,10 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/datumbox.json
+- type: x-api-gallery
+  url: http://datadog.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://datumbox.stack.network
 - type: x-blog
   url: http://blog.datumbox.com/
 - type: x-blog-rss

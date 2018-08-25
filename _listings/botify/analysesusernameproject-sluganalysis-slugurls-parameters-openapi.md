@@ -640,6 +640,358 @@ paths:
       - Analysis
       - Slug
       - Urls
+    post:
+      summary: Post Analyses Username Project Slug Analysis Slug Urls
+      description: Post analyses username project slug analysis slug urls.
+      operationId: postAnalysesUsernameProjectSlugAnalysisSlugUrls
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurls-post
+      parameters:
+      - in: query
+        name: area
+        description: Analysis context
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      - in: body
+        name: UrlsQuery
+        description: Urls query
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/aggs:
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Aggs
+      description: Parameters analyses username project slug analysis slug urls aggs.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsAggs
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsaggs-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Aggs
+    post:
+      summary: Post Analyses Username Project Slug Analysis Slug Urls Aggs
+      description: Post analyses username project slug analysis slug urls aggs.
+      operationId: postAnalysesUsernameProjectSlugAnalysisSlugUrlsAggs
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsaggs-post
+      parameters:
+      - in: query
+        name: area
+        description: Analysis context
+      - in: body
+        name: UrlsAggsQueries
+        description: UrlsAggs queries
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Aggs
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/datamodel:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Urls Datamodel
+      description: Get analyses username project slug analysis slug urls datamodel.
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugUrlsDatamodel
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-get
+      parameters:
+      - in: query
+        name: area
+        description: Analysis context
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Datamodel
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Datamodel
+      description: Parameters analyses username project slug analysis slug urls datamodel.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsDatamodel
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsdatamodel-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Datamodel
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/export:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Urls Export
+      description: Get analyses username project slug analysis slug urls export.
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugUrlsExport
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsexport-get
+      parameters:
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Export
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Export
+      description: Parameters analyses username project slug analysis slug urls export.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsExport
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsexport-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Export
+    post:
+      summary: Post Analyses Username Project Slug Analysis Slug Urls Export
+      description: Creates a new UrlExport object and starts a task that will export
+        the results into a csv. Returns the model id that manages the task
+      operationId: postAnalysesUsernameProjectSlugAnalysisSlugUrlsExport
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsexport-post
+      parameters:
+      - in: query
+        name: area
+        description: Analysis context
+      - in: body
+        name: UrlsQuery
+        description: Urls query
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Export
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/export/{url_export_id}:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Urls Export Url Export
+      description: Checks the status of an CSVUrlExportJob object. Returns json object
+        with the status.
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugUrlsExportUrlExport
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsexporturl-export-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Export
+      - Url
+      - Export
+      - Id
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Export
+        Url Export
+      description: Parameters analyses username project slug analysis slug urls export
+        url export.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsExportUrlExport
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsexporturl-export-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Export
+      - Url
+      - Export
+      - Id
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/suggested_filters:
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Suggested
+        Filters
+      description: Parameters analyses username project slug analysis slug urls suggested
+        filters.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsSuggestedFilters
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Suggested
+      - Filters
+    post:
+      summary: Post Analyses Username Project Slug Analysis Slug Urls Suggested Filters
+      description: Return most frequent segments (= suggested patterns in the previous
+        version) for a Botify Query.
+      operationId: postAnalysesUsernameProjectSlugAnalysisSlugUrlsSuggestedFilters
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-post
+      parameters:
+      - in: query
+        name: area
+        description: Analysis context
+      - in: body
+        name: UrlsAggsQuery
+        description: UrlsAggs query
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Suggested
+      - Filters
+  /analyses/{username}/{project_slug}/{analysis_slug}/urls/{url}:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Urls Url
+      description: Get analyses username project slug analysis slug urls url.
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugUrlsUrl
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsurl-get
+      parameters:
+      - in: query
+        name: fields
+        description: comma separated list of fields to return (c
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Url
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Urls Url
+      description: Parameters analyses username project slug analysis slug urls url.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugUrlsUrl
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugurlsurl-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Urls
+      - Url
+  /analyses/{username}/{project_slug}:
+    get:
+      summary: Get Analyses Username Project Slug
+      description: Get analyses username project slug.
+      operationId: getAnalysesUsernameProjectSlug
+      x-api-path-slug: analysesusernameproject-slug-get
+      parameters:
+      - in: query
+        name: only_success
+        description: Return only successfully finished analyses
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+    parameters:
+      summary: Parameters Analyses Username Project Slug
+      description: Parameters analyses username project slug.
+      operationId: parametersAnalysesUsernameProjectSlug
+      x-api-path-slug: analysesusernameproject-slug-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

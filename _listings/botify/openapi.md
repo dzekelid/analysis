@@ -955,4 +955,41 @@ paths:
       - Slug
       - Urls
       - Url
+  /analyses/{username}/{project_slug}:
+    get:
+      summary: Get Analyses Username Project Slug
+      description: Get analyses username project slug.
+      operationId: getAnalysesUsernameProjectSlug
+      x-api-path-slug: analysesusernameproject-slug-get
+      parameters:
+      - in: query
+        name: only_success
+        description: Return only successfully finished analyses
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+    parameters:
+      summary: Parameters Analyses Username Project Slug
+      description: Parameters analyses username project slug.
+      operationId: parametersAnalysesUsernameProjectSlug
+      x-api-path-slug: analysesusernameproject-slug-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
 ---
