@@ -10,11 +10,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Analysis
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS CloudSearch - Define Analysis Scheme
+  x-api-slug: actiondefineanalysisscheme-get
+  description: Configures an analysis scheme that can be applied to a text or text-array
+    field to define language-specific text processing options.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondefineanalysisscheme-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondefineanalysisscheme-get-openapi.md
+- name: AWS CloudSearch - Delete Analysis Scheme
+  x-api-slug: actiondeleteanalysisscheme-get
+  description: Deletes an analysis scheme.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondeleteanalysisscheme-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondeleteanalysisscheme-get-openapi.md
+- name: AWS CloudSearch - Describe Analysis Schemes
+  x-api-slug: actiondescribeanalysisschemes-get
+  description: Gets the analysis schemes configured for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondescribeanalysisschemes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/actiondescribeanalysisschemes-get-openapi.md
 - name: AWS CloudSearch - Define Analysis Scheme
   x-api-slug: actiondefineanalysisscheme-get
   description: Configures an analysis scheme that can be applied to a text or text-array

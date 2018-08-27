@@ -1,76 +1,1287 @@
 {
-	"name": "IBM Financial Crimes Insight for Insurance",
-	"x-slug": "ibm-financial-crimes-insight-for-insurance",
-	"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/WFS-Counter-Fraud-Technical-Level-3.png",
-	"x-kinRank": "7",
-	"x-alexaRank": "",
-	"tags": "Analysis",
-	"created": "2018-08-25",
-	"modified": "2018-08-25",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/analysis\/master\/_listings\/ibm-financial-crimes-insight-for-insurance\/apis.md",
+	"name": "Streadata.io API Gallery - Analysis",
+	"description": "This is a repository of analysis APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/analysis.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://analysis.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "IBM Financial Crimes Insight for Insurance API",
-			"x-api-slug": "ibm-financial-crimes-insight-for-insurance-api",
-			"description": "these-are-the-financial-crimes-insight-for-insurance-public-rest-apis-used-by-clients-to-access-the-fcii-capabilities",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/WFS-Counter-Fraud-Technical-Level-3.png",
-			"humanURL": "https:\/\/www-01.ibm.com\/common\/ssi\/cgi-bin\/ssialias?infotype=AN&subtype=CA&htmlfid=897\/ENUS218-305&appname=USN",
-			"baseURL": "https:\/\/fcihost.ibm.com:9443\/\/",
-			"tags": "Policing, Financial, Insurance, Service API, Relative Data",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/analysis\/master\/_listings\/ibm-financial-crimes-insight-for-insurance\/ibmfciplatformdata-accessanalysis-request-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "IBM Financial Crimes Insight for Insurance API",
-			"x-api-slug": "ibm-financial-crimes-insight-for-insurance-api",
-			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/WFS-Counter-Fraud-Technical-Level-3.png",
-			"humanURL": "https:\/\/www-01.ibm.com\/common\/ssi\/cgi-bin\/ssialias?infotype=AN&subtype=CA&htmlfid=897\/ENUS218-305&appname=USN",
-			"baseURL": "https:\/\/fcihost.ibm.com:9443\/\/",
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
 			"tags": "Analysis",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/analysis\/master\/_listings\/ibm-financial-crimes-insight-for-insurance\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Adigami",
+			"x-api-slug": "adigami",
+			"description": "Adigami is a web analytics and search marketing company. We have developed a robust analytics platform for   evaluating and improving online marketing efforts. Our product can be used by individual business owners,   marketing departments, and advertis...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/35-adigami.jpg",
+			"humanURL": "http://www.adigami.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/adigami/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mixpanel",
+			"x-api-slug": "mixpanel",
+			"description": "Get insights across all of your user-centric data to make smarter decisions and act faster based on how customers use your product or website. Try it free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/79-mixpanel.jpg",
+			"humanURL": "https://mixpanel.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mixpanel/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Segment",
+			"x-api-slug": "segment",
+			"description": "Segment is trusted by thousands of companies as their Customer Data Platform. Collect user data with one API and send it to hundreds of tools or a data warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/116-segment.jpg",
+			"humanURL": "https://segment.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/segment/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Best Buy",
+			"x-api-slug": "best-buy",
+			"description": "Best Buy Company Profile  With operations in the United States,  Canada and Mexico, Best Buy is a North  American retailer of technology and  entertainment products and services with  a commitment to growth and innovation.  The Best Buy family of brand...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/158-best-buy-apis.jpg",
+			"humanURL": "http://www.bestbuy.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/best-buy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datameer",
+			"x-api-slug": "datameer",
+			"description": "Datameer delivers an agile, unified & governed approach to managing data for analytics. Datameer???s modern analytic data platform transforms complex, diverse data into a governed enterprise-wide network of data pipelines that feed your analytics initiat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/176-datameer.jpg",
+			"humanURL": "http://www.datameer.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datameer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoSquared",
+			"x-api-slug": "gosquared",
+			"description": "Turn visitors into customers with live chat and CRM software guaranteed to increase conversion.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/209-gosquared.jpg",
+			"humanURL": "https://www.gosquared.com/developer/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gosquared/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "agendize",
+			"x-api-slug": "agendize",
+			"description": "Agendize is the most complete customer engagement platform on the market, providing over 100,000 businesses with customizable ways to let their customers call, chat, book appointments and more.    As a leading provider of these solutions, Agendize has ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/322-agendize.jpg",
+			"humanURL": "http://www.agendize.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/agendize/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Altmetric",
+			"x-api-slug": "altmetric",
+			"description": "Altmetric tracks mentions of scholarly works on social media sites, scholarly bookmarking services and in science news outlets. It handles all of the heavy lifting involved in extracting, disambiguating and collating this information so that you can focus on your core product. The Altmetric API gives you programmatic access the data about articles &amp; datasets collected by Altmetric.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/api_header_logo.png",
+			"humanURL": "http://www.altmetric.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/altmetric/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sendible",
+			"x-api-slug": "sendible",
+			"description": "Sendible is a social media management tool that helps agencies and companies boost their productivity on social media. Try it for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/472-sendible.jpg",
+			"humanURL": "http://sendible.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendible/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Moz",
+			"x-api-slug": "moz",
+			"description": "Backed by the largest community of SEOs on the planet, Moz builds tools that make SEO, inbound marketing, link building, and content marketing easy. Start your free 30-day trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/473-seomoz.jpg",
+			"humanURL": "http://www.seomoz.org",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/moz/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoodData",
+			"x-api-slug": "gooddata",
+			"description": "GoodData goes beyond traditional business intelligence and analytics delivering insights at the moment of action to drive better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/601-gooddata.jpg",
+			"humanURL": "http://gooddata.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gooddata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AuthorityLabs",
+			"x-api-slug": "authoritylabs",
+			"description": "Track website rankings in Google, Yahoo!, and Bing daily. Our automated SERP tracking saves you time and helps you respond quickly to ranking changes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg",
+			"humanURL": "http://authoritylabs.com",
+			"baseURL": "https://api.authoritylabs.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/authoritylabs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BMC Software",
+			"x-api-slug": "bmc-software",
+			"description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg",
+			"humanURL": "http://www.bmc.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bmc-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Framesocket",
+			"x-api-slug": "framesocket",
+			"description": "Easily integrate video into your website or mobile applications. Build traffic via Google Facebook YouTube Twitter. No limits on users storage or bandwidth.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg",
+			"humanURL": "http://framesocket.com",
+			"baseURL": "://www.framesocket.com//api",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/framesocket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Deskmetrics",
+			"x-api-slug": "deskmetrics",
+			"description": "Deskmetrics Analytics allows software companies and developers to understand how their application is being used.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1004-deskmetrics.jpg",
+			"humanURL": "https://deskmetrics.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/deskmetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Markit",
+			"x-api-slug": "markit",
+			"description": "IHS Markit  The Source for Critical Information and Insight",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1045-markit.jpg",
+			"humanURL": "http://www.markit.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/markit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Freespee",
+			"x-api-slug": "freespee",
+			"description": "Freespee is the only customer communication platform that allows businesses and their website visitors or app users to talk in real-time via any interface, typed or spoken.    Freespee???s Conversation Cloud is designed to humanise online commerce operat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1061-freespee.jpg",
+			"humanURL": "http://support.freespee.com/hc/en-us/categories/preview?developers",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/freespee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wrike",
+			"x-api-slug": "wrike",
+			"description": "Wrike is an online project management software that gives you full visibility and control over your tasks. With the help of our product, managing projects becomes easier. Our project management tools include time tracking, project planning and organiza...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1222-wrike.jpg",
+			"humanURL": "http://www.wrike.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/wrike/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bugsnag",
+			"x-api-slug": "bugsnag",
+			"description": "Bugsnag monitors apps for errors that impact customers & reports all diagnostic data. By default, we save every error, so your data wont be sampled. Try it free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1314-bugsnag.jpg",
+			"humanURL": "https://www.bugsnag.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bugsnag/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rejoiner",
+			"x-api-slug": "rejoiner",
+			"description": "Rejoiner is a lifecycle email marketing software designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and retain their best customers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1358-rejoiner.jpg",
+			"humanURL": "http://rejoiner.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/rejoiner/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sift Science",
+			"x-api-slug": "sift-science",
+			"description": "Block fraud, provide a better customer experience, and grow your revenue through the machine learning Sift Science Trust Platform. Fast, accurate, and reliable data. Talk to a fraud expert today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1475-sift-science.jpg",
+			"humanURL": "https://siftscience.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sift-science/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sysomos",
+			"x-api-slug": "sysomos",
+			"description": "A unified, insights-driven social platform empowering marketers to search, discover, listen, publish, engage, and analyze across earned, owned, and paid media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1482-sysomos.jpg",
+			"humanURL": "https://sysomos.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sysomos/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pirate Metrics",
+			"x-api-slug": "pirate-metrics",
+			"description": "Pirate Metrics is an API that tracks metrics important to subscription-based businesses, such as new user signups and activity, and provides marketing advice for improving user retention and driving more revenue.This application delivers actionable analytics and marketing insight for SaaS applications. Based on the famous Startup Metrics for Pirates talk by Dave McClure, Pirate Metrics tracks Acquisitions (new user signups) Activations (a user uses your product) Retentions (a user continues to use your product) Referrals (a user refers other users) and Revenue (a user pays for your service.)By tracking these key events, Pirate Metrics can search for patterns in your subscribers&#8217; behavior, and then suggest a course of action for improving your user retention rate and driving more revenue.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1570_logo.png",
+			"humanURL": "http://piratemetrics.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pirate-metrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Washington",
+			"x-api-slug": "university-of-washington",
+			"description": "The UW is a leading research university with three campuses, a world-class academic medical center and extensive continuing education programs. The students, faculty and researchers who come here are driven to turn ideas into actions. They transform ou...",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.washington.edu/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/university-of-washington/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Positionly",
+			"x-api-slug": "positionly",
+			"description": "Inbound Marketing Software by Positionly. Try the best user-friendly tools to track and improve SEO.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1662-positionly.jpg",
+			"humanURL": "https://positionly.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/positionly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Import.io",
+			"x-api-slug": "import-io",
+			"description": "Home Page - Import.io - Web Scraping, Data Extraction and Web Harvesting",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg",
+			"humanURL": "https://www.import.io/",
+			"baseURL": "https://schedule.import.io//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/import-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APImetrics",
+			"x-api-slug": "apimetrics",
+			"description": "API performance monitoring, Cloud Service, SLA monitoring and analysis that gives you answers, not excuses. Find out how today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg",
+			"humanURL": "http://apimetrics.io",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apimetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Appsee",
+			"x-api-slug": "appsee",
+			"description": "Appsee is a mobile app analytics platform that offers you powerful, qualitative analytics tools that enable you to track and optimize the UX in your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2002-appsee.jpg",
+			"humanURL": "http://www.appsee.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/appsee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Civis Analytics",
+			"x-api-slug": "civis-analytics",
+			"description": "Chicago & DC",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/8767-civis-analytics.jpg",
+			"humanURL": "http://civisanalytics.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/civis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Localytics",
+			"x-api-slug": "localytics",
+			"description": "With our platform you get smarter analytics insights and mobile app marketing experiences that better engage your users. Check out a full list of features!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9135-localytics.jpg",
+			"humanURL": "http://www.localytics.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/localytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Countly",
+			"x-api-slug": "countly",
+			"description": "Countly is the best mobile analytics and marketing, web, desktop and IoT analytics platform for securely tracking customer journeys in your applications. Extend Countly via plugins to add new analytics and marketing capabilities and eliminate the need ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10143-countly.jpg",
+			"humanURL": "https://count.ly/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/countly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stackify",
+			"x-api-slug": "stackify",
+			"description": "Stackifys tools combine monitoring, errors, logs, and metrics in one tool. Find bugs and identify ways to improve your app at every step of the development process. Download Prefix for free and start a free trial of Retrace in order to diagnose applic...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10321-stackify.jpg",
+			"humanURL": "http://stackify.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/stackify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Auth0",
+			"x-api-slug": "auth0",
+			"description": "The new way to solve Identity",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg",
+			"humanURL": "https://auth0.com/",
+			"baseURL": "https://login.auth0.com//users",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/auth0/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datumbox",
+			"x-api-slug": "datumbox",
+			"description": "Build quickly and easily Intelligent Applications by using the power of Machine Learning!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg",
+			"humanURL": "http://datumbox.com",
+			"baseURL": "https://api.datumbox.com/1.0/",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yet Analytics",
+			"x-api-slug": "yet-analytics",
+			"description": "Collect, connect, and analyze your learning and training data, from any source, in real-time, in the cloud. The Yet Core is our Experience-API (xAPI) data analytics platform, comprised of an immutable and massively scalable xAPI LRS and our proprietary xAPI data analytics engine. Through the use of xAPI and our own data analytics tools, the Yet Core enables organizations to collect, standardize, and analyze experiential learning and training data from any source.",
+			"image": "https://avatars.githubusercontent.com/u/4292759?v=3",
+			"humanURL": "http://www.yetanalytics.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/yet-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Bouquet",
+			"x-api-slug": "open-bouquet",
+			"description": "",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://bouquet.ai/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/open-bouquet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apica",
+			"x-api-slug": "apica",
+			"description": "Apicas performance testing and monitoring solutions provide critical peak performance data and 24/7 monitoring of applications and sites around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg",
+			"humanURL": "https://www.apicasystem.com",
+			"baseURL": ":///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apica/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Graphite",
+			"x-api-slug": "graphite",
+			"description": "Graphite is used to monitor metrics common aspects of API operations and performance like CPU, Memory, IO usage, network throughput and latency. It can also be used for tracking API endpoint usage, and applied as part of API rate limiting.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphite_cli_800.png",
+			"humanURL": "http://graphite.wikidot.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/graphite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MoBagel",
+			"x-api-slug": "mobagel",
+			"description": "MoBagel is a real-time cloud analytics platform that helps IoT companies monitor and analyze hardware usage, speed up research and development, forecast sales and marketing strategies, and proactively engage with customers to prevent product returns. As a result, companies can also save up to millions in cost reductions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mobagel-logo.png",
+			"humanURL": "https://mobagel.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mobagel/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netsil",
+			"x-api-slug": "netsil",
+			"description": "Netsil provides observability and monitoring for cloud apps. DevOps teams use Netsils auto-discovered maps & analytics to assure uptime and performance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19932-netsil.jpg",
+			"humanURL": "http://netsil.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/netsil/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MATLAB",
+			"x-api-slug": "matlab",
+			"description": "MathWorks develops, sells, and supports MATLAB and Simulink products.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20038-matlab.jpg",
+			"humanURL": "http://www.mathworks.com/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/matlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Crimson Hexagon",
+			"x-api-slug": "crimson-hexagon",
+			"description": "Crimson Hexagon is an AI-powered consumer insights company for brand managers, marketers, executives, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21649-crimsonhexagon-com.jpg",
+			"humanURL": "http://crimsonhexagon.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/crimson-hexagon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudWatch",
+			"x-api-slug": "aws-cloudwatch",
+			"description": "Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources. Amazon CloudWatch can monitor AWS resources such as Amazon EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as custom metrics generated by your applications and services, and any log files your applications generate. You can use Amazon CloudWatch to gain system-wide visibility into resource utilization, application performance, and operational health. You can use these insights to react and keep your application running smoothly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png",
+			"humanURL": "https://aws.amazon.com/cloudwatch/",
+			"baseURL": ":///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudwatch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudSearch",
+			"x-api-slug": "aws-cloudsearch",
+			"description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application.Amazon CloudSearch supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search. For more information, see Benefits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png",
+			"humanURL": "https://aws.amazon.com/cloudsearch/",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"x-api-slug": "aws-kinesis-analytics",
+			"description": "Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png",
+			"humanURL": "https://aws.amazon.com/kinesis/analytics/",
+			"baseURL": ":///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-kinesis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Analytics",
+			"x-api-slug": "google-analytics",
+			"description": "Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience. You can then share the insights that matter with your whole organization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png",
+			"humanURL": "https://www.google.com/analytics/#?modal_active=none",
+			"baseURL": "https://www.googleapis.com//analytics/v3",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google PageSpeed Insights",
+			"x-api-slug": "google-pagespeed-insights",
+			"description": "Page Speed Insights measures the performance of a page for mobile devices and desktop devices. It fetches the url twice, once with a mobile user-agent, and once with a desktop-user agent. The PageSpeed Score ranges from 0 to 100 points. A higher score is better and a score of 85 or above indicates that the page is performing well. Please note that PageSpeed Insights is being continually improved and so the score will change as we add new rules or improve our analysis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/54de5c09d56ec853cc9310e1.png",
+			"humanURL": "https://developers.google.com/speed/docs/insights/about",
+			"baseURL": "://www.googleapis.com//pagespeedonline/v2",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Prediction",
+			"x-api-slug": "google-cloud-prediction",
+			"description": "Google Cloud Prediction API provides a RESTful API to build Machine Learning models. Predictions cloud-based machine learning tools can help analyze your data to add various features to your applications, such as customer sentiment analysis, spam detection, recommendation systems, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-prediction-api-500x500.jpg",
+			"humanURL": "https://cloud.google.com/prediction/docs/developer-guide",
+			"baseURL": "://www.googleapis.com//prediction/v1.6/projects",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Search Console",
+			"x-api-slug": "google-search-console",
+			"description": "Search Console is a free service that enables you to monitor your sites performance in Google Search, to ensure that Google can crawl your site or app correctly, and to test the validity and performance of a given page. Search Console provides programmatic access to the service through the APIs documented here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif",
+			"humanURL": "https://developers.google.com/webmaster-tools/",
+			"baseURL": "://searchconsole.googleapis.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-search-console/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Analysis Services",
+			"x-api-slug": "azure-analysis-services",
+			"description": "Use Azure Resource Manager to create and deploy an Azure Analysis Services instance within seconds, and use backup restore to quickly move your existing models to Azure Analysis Services and take advantage of the scale, flexibility and management benefits of the cloud. Scale up, scale down, or pause the service and pay only for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transform-complex-data.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/analysis-services/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-analysis-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"x-api-slug": "azure-data-lake-analytics",
+			"description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need. You only pay for your job when it is running making it cost-effective. The analytics service supports Azure Active Directory letting you simply manage access and roles, integrated with your on-premises identity system. It also includes U-SQL, a language that unifies the benefits of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed runtime enables you to efficiently analyze data in the store and across SQL Servers in Azure, Azure SQL Database and Azure SQL Data Warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/",
+			"baseURL": ":////",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-data-lake-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure HDInsight",
+			"x-api-slug": "azure-hdinsight",
+			"description": "Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop solution to the cloud. Gain the full value of big data with a cloud-based data platform that manages data of any type and size.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/hdinsight/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-hdinsight/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Traffic Manager",
+			"x-api-slug": "azure-traffic-manager",
+			"description": "Azure Traffic Manager gives you three methods for traffic routing: failover, performance, or weighted round-robin. Choose the one that&rsquo;s right for your application or scenario.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-traffic-improved-application-performance.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/traffic-manager/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-traffic-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParallelDots",
+			"x-api-slug": "paralleldots",
+			"description": "ParallelDots is one of the best applied AI research groups in the world. We work with enterprises globally to tackle challenging business problems and create the winners of tomorrow. We also provide AI consulting services to explore the what, why, how and who about deploying AI in businesses. Try-out our cutting edge text analysis APIs and join the community of 1,000+ global users. Contact us at contact@paralleldots.com and tell us about the challenging business problems that you are facing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png",
+			"humanURL": "https://www.paralleldots.com/",
+			"baseURL": "https://apis.paralleldots.com//v3",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/paralleldots/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PredictHQ",
+			"x-api-slug": "predicthq",
+			"description": "Event visibility yields higher returns & reduces operational costs. PredictHQ is the worlds largest source of intelligent event data making businesses smarter.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg",
+			"humanURL": "http://www.predicthq.com/",
+			"baseURL": "https://api.predicthq.com//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predicthq/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clarity Insights",
+			"x-api-slug": "clarity-insights",
+			"description": "Clarity Insights is a big data solutions and data science consulting firm, the largest 100% onshore big data and data science consultancy in the United States.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28221-www-clarityinsights-com.jpg",
+			"humanURL": "https://www.clarityinsights.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/clarity-insights/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Striim",
+			"x-api-slug": "striim",
+			"description": "Striim (pronounced stream) provides an end-to-end, real-time data integration + streaming analytics platform. Leverage change data capture (CDC) to access data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28377-striim.jpg",
+			"humanURL": "https://www.striim.com",
+			"baseURL": "https:///",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/striim/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lota Data",
+			"x-api-slug": "lota-data",
+			"description": "",
+			"image": "",
+			"humanURL": "http://lotadata.com",
+			"baseURL": "https://api2.lotadata.com//v2",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/lota-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fire Browse",
+			"x-api-slug": "fire-browse",
+			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
+			"humanURL": "http://firebrowse.org",
+			"baseURL": "https://firebrowse.org//api/v1",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/fire-browse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"x-api-slug": "ibm-financial-crimes-insight-for-insurance",
+			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png",
+			"humanURL": "https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN",
+			"baseURL": "https://fcihost.ibm.com:9443//",
+			"tags": "Analysis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/ibm-financial-crimes-insight-for-insurance/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/www.ibm.com\/support\/knowledgecenter\/SSC2HF_3.0.0\/api\/fcii-insurance-v3.0.0.yaml?origin=swagger-ui"
-		},
-		{
-			"type": "x-pricing",
-			"url": "https:\/\/www-01.ibm.com\/common\/ssi\/cgi-bin\/ssialias?infotype=AN&subtype=CA&htmlfid=897\/ENUS218-305&appname=USN#echargex"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/www-01.ibm.com\/common\/ssi\/cgi-bin\/ssialias?infotype=AN&subtype=CA&htmlfid=897\/ENUS218-305&appname=USN"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/ibm.cloud.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/ibm.financial.crimes.insight.for.insurance.stack.network"
-		}
-	],
+	"tags": "Analysis",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Adigami",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/adigami/apis.yaml"
+		},
+		{
+			"name": "Mixpanel",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mixpanel/apis.yaml"
+		},
+		{
+			"name": "Segment",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/segment/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Best Buy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/best-buy/apis.yaml"
+		},
+		{
+			"name": "Datameer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datameer/apis.yaml"
+		},
+		{
+			"name": "GoSquared",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gosquared/apis.yaml"
+		},
+		{
+			"name": "agendize",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/agendize/apis.yaml"
+		},
+		{
+			"name": "Altmetric",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/altmetric/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Sendible",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sendible/apis.yaml"
+		},
+		{
+			"name": "Moz",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/moz/apis.yaml"
+		},
+		{
+			"name": "GoodData",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/gooddata/apis.yaml"
+		},
+		{
+			"name": "AuthorityLabs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/authoritylabs/apis.yaml"
+		},
+		{
+			"name": "BMC Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bmc-software/apis.yaml"
+		},
+		{
+			"name": "Framesocket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/framesocket/apis.yaml"
+		},
+		{
+			"name": "Deskmetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/deskmetrics/apis.yaml"
+		},
+		{
+			"name": "Markit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/markit/apis.yaml"
+		},
+		{
+			"name": "Freespee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/freespee/apis.yaml"
+		},
+		{
+			"name": "Wrike",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/wrike/apis.yaml"
+		},
+		{
+			"name": "Bugsnag",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/bugsnag/apis.yaml"
+		},
+		{
+			"name": "Rejoiner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/rejoiner/apis.yaml"
+		},
+		{
+			"name": "Sift Science",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sift-science/apis.yaml"
+		},
+		{
+			"name": "Sysomos",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sysomos/apis.yaml"
+		},
+		{
+			"name": "Pirate Metrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/pirate-metrics/apis.yaml"
+		},
+		{
+			"name": "University of Washington",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/university-of-washington/apis.yaml"
+		},
+		{
+			"name": "Positionly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/positionly/apis.yaml"
+		},
+		{
+			"name": "Import.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/import-io/apis.yaml"
+		},
+		{
+			"name": "APImetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apimetrics/apis.yaml"
+		},
+		{
+			"name": "Appsee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/appsee/apis.yaml"
+		},
+		{
+			"name": "Civis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/civis-analytics/apis.yaml"
+		},
+		{
+			"name": "Localytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/localytics/apis.yaml"
+		},
+		{
+			"name": "Countly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/countly/apis.yaml"
+		},
+		{
+			"name": "Stackify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/stackify/apis.yaml"
+		},
+		{
+			"name": "Auth0",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/auth0/apis.yaml"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "Datumbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/datumbox/apis.yaml"
+		},
+		{
+			"name": "Yet Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/yet-analytics/apis.yaml"
+		},
+		{
+			"name": "Open Bouquet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/open-bouquet/apis.yaml"
+		},
+		{
+			"name": "Apica",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/apica/apis.yaml"
+		},
+		{
+			"name": "Graphite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/graphite/apis.yaml"
+		},
+		{
+			"name": "MoBagel",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/mobagel/apis.yaml"
+		},
+		{
+			"name": "Netsil",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/netsil/apis.yaml"
+		},
+		{
+			"name": "MATLAB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/matlab/apis.yaml"
+		},
+		{
+			"name": "Crimson Hexagon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/crimson-hexagon/apis.yaml"
+		},
+		{
+			"name": "AWS CloudWatch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudwatch/apis.yaml"
+		},
+		{
+			"name": "AWS CloudSearch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-cloudsearch/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/aws-kinesis-analytics/apis.yaml"
+		},
+		{
+			"name": "Google Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-analytics/apis.yaml"
+		},
+		{
+			"name": "Google PageSpeed Insights",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-pagespeed-insights/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Prediction",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-cloud-prediction/apis.yaml"
+		},
+		{
+			"name": "Google Search Console",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/google-search-console/apis.yaml"
+		},
+		{
+			"name": "Azure Analysis Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-analysis-services/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-data-lake-analytics/apis.yaml"
+		},
+		{
+			"name": "Azure HDInsight",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-hdinsight/apis.yaml"
+		},
+		{
+			"name": "Azure Traffic Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/azure-traffic-manager/apis.yaml"
+		},
+		{
+			"name": "ParallelDots",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/paralleldots/apis.yaml"
+		},
+		{
+			"name": "PredictHQ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predicthq/apis.yaml"
+		},
+		{
+			"name": "Clarity Insights",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/clarity-insights/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "Striim",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/striim/apis.yaml"
+		},
+		{
+			"name": "Lota Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/lota-data/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "Fire Browse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/fire-browse/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.yaml"
 		}
 	]
 }

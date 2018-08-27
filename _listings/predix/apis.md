@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Analysis
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predix/apis.md
 specificationVersion: "0.14"
 apis:
+- name: ThetaRay Predix Service API - Analyses List
+  x-api-slug: v1proxyanalyses-get
+  description: Get list of Analyses
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https://thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io//
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predix/v1proxyanalyses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/analysis/master/_listings/predix/v1proxyanalyses-get-openapi.md
 - name: ThetaRay Predix Service API - Analyses List
   x-api-slug: v1proxyanalyses-get
   description: Get list of Analyses

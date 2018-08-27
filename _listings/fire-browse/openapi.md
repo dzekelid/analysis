@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Fire Browse
 x-complete: 1
@@ -451,4 +450,3 @@ paths:
       - Analyses
       - MRNASeq
       - Quartiles
----
